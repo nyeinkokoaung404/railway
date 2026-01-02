@@ -20,7 +20,7 @@ const NEZHA_KEY = process.env.NEZHA_KEY || '';              // NZ_CLIENT_SECRET 
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'rai.channel-404.com';          // A fixed tunnel domain name can be left blank to activate a temporary tunnel.
 const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiZDE3OTk4MzI4ZTAxM2NiYTY2NjIzZGYzMjEwNzAzMzQiLCJ0IjoiYTg1MjQ5YTctNzk4Yi00ZWQzLTg2NmMtMGI0NjRjMGY5ZDc5IiwicyI6Ik5UTmhOV0ZpT1dVdFlqSTVZUzAwTXpKaUxXSXhPRGt0TURGbE16UmpNVE0yWXpVeiJ9';              // A fixed tunnel key (JSON or token) is required. Leaving it blank will enable a temporary tunnel. The JSON key can be obtained from: https://json.zone.id
 const ARGO_PORT = process.env.ARGO_PORT || 8001;            //For fixed tunnel ports, the token settings in the Cloudflare backend must match those here.
-const CFIP = process.env.CFIP || 'www.wto.org';        // Preferred domain name or preferred IP address for node  
+const CFIP = process.env.CFIP || 'mpt.com.mm';        // Preferred domain name or preferred IP address for node  
 const CFPORT = process.env.CFPORT || 443;                   // The node's preferred domain name or preferred IP address corresponds to the port.
 const NAME = process.env.NAME || '';                        // Node Name
 
